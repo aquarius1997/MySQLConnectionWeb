@@ -4,6 +4,8 @@
 
 + WAS 없이 Controller를 테스트할 수 있는 테스트코드 추가 (test>java>하위패키지>ControllerTest.java)
 
++ Springloaded로 코드 수정시 WAS 재가동할 필요없도록 hot-swap기능 추가
+
 -------------------------------
 
 ## Prerequisites
