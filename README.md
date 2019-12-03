@@ -20,13 +20,7 @@
 
 ## Structure
 
-1. Manage Table (제품 정보 저장)
-
-2. User Table (사용자 정보 저장)
-
-3. Auth Table (인증 정보 저장)
-
-4. Attach Table (제품에 대한 첨부파일 정보 저장)
+1. test_db01
 
 --------------------------------
 
