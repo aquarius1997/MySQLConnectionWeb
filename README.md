@@ -49,3 +49,16 @@
         <version>8.0.18</version>
     </dependency>
 ~~~
+
+3.Jackson-databind
+ * Error : java.lang.IllegalArgumentException: No converter found for return value of type ….
+ * 원인 : Json으로 변환할 때 필요한 라이브러리를 pom.xml에 추가해서 적용된줄 알았는데, Project Structure > Artifacts 를 보니 적용이 안돼있어서 더블클릭으로 추가함.
+ * Error 원인 파일 : pom.xml + 프로젝트에 라이브러리 미반영
+ * 코드 : 
+ ~~~
+<dependency>
+    <groupId>com.fasterxml.jackson.core</groupId>
+    <artifactId>jackson-databind</artifactId>
+    <version>2.5.1</version>
+</dependency>
+~~~
