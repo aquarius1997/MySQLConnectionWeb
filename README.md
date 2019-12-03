@@ -2,7 +2,7 @@
 
 ## Intellij를 사용하 때 [Spring + Maven + MySQL] 설정파일들을 어떻게 잡아야 하는지 기억하는 용도의 프로젝트
 
-테스트 코드 작성
++ WAS 없이 Controller를 테스트할 수 있는 테스트코드 추가 (test>java>하위패키지>ControllerTest.java)
 
 -------------------------------
 
