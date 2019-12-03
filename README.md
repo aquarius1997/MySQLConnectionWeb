@@ -1,2 +1,55 @@
 # MySQLConnectionWeb
-이전까지의 웹 프로젝트는 Oracle DB를 사용했기에 MySQL DB를 사용할 때 프로젝트 설정들을 어떻게 잡아야 하는지에 대한 정보를 저장하기 위한 일종의 Toy 프로젝트
+
+## Intellij를 사용하 때 [Spring + Maven + MySQL] 설정파일들을 어떻게 잡아야 하는지 기억하는 용도의 프로젝트
+
+테스트 코드 작성
+
+-------------------------------
+
+## Prerequisites
+
+* jdk1.8 (Open Jdk Zulu 사용)
+* Spring (4.3.18.RELEASE)
+  - JSP
+  - Lombok
+  - MVC Model
+* MySQL DB
+* Maven
+
+--------------------------------
+
+## Structure
+
+1. Manage Table (제품 정보 저장)
+
+2. User Table (사용자 정보 저장)
+
+3. Auth Table (인증 정보 저장)
+
+4. Attach Table (제품에 대한 첨부파일 정보 저장)
+
+--------------------------------
+
+## 에러 내용 및 해결 방법
+
+
+1.Datasource Test
+ * Error : The server time zone value ‘KST’ is unrecognized or represents more than one time zone
+ * 원인 : mysql-connector-java 버전 5.1.X 이후 버전부터 KST 타임존을 인식하지 못함
+ * Error 발생 파일 : applicationContext.xml
+ * Error 코드 : DataSource 설정 url의 <property name="url" value="jdbc:mysql://127.0.0.1:3306/test_db01?useSSL=false"/>
+ * 수정 코드 : <property name="url" value="jdbc:mysql://127.0.0.1:3306/test_db01?useSSL=false&amp;serverTimezone=UTC"/>
+
+2.mysql Connection Test
+ * Error : java.sql.SQLException: Unable to load authentication plugin 'caching_sha2_password'.
+ * 원인 : mysql connector버전을 local에 설치한 DB 버전과 맞추지 않아 발생
+ * Error 원인 파일 : pom.xml
+ * 수정 코드 :
+~~~
+    <dependency>
+        <groupId>mysql</groupId>
+        <artifactId>mysql-connector-java</artifactId>
+        <scope>runtime</scope>
+        <version>8.0.18</version>
+    </dependency>
+~~~
