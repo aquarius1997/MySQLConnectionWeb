@@ -62,3 +62,8 @@
     <version>2.5.1</version>
 </dependency>
 ~~~
+
+4.MockMVC 를 이용한 Junit Test
+ * Error : No mapping found for HTTP request with URI
+ * 원인 : 내부 웹 관련 처리작업을 설정하는 것은 dispatcher-servlet.xml이나, 애플리케이션 컨텍스트 설정 파일위치를 applicationContext.xml로 잘못 지정
+ * 해결 : ContextConfiguration 어노테이션의 위치를 dispatcher-servelt.xml 로 변경 : @ContextConfiguration(locations = {"file:web/WEB-INF/dispatcher-servlet.xml"})
