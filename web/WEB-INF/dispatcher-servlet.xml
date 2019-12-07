@@ -10,6 +10,10 @@
         http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
 
     <mvc:annotation-driven/>
+    <context:annotation-config/>
+
+    <!-- 정적자원 매핑 -->
+    <mvc:resources mapping="/resources/**" location="/resources/" />
 
 <!--    <mvc:resources mapping="/resources/**" location="/resources/"/>-->
 
@@ -20,8 +24,6 @@
 
     <!-- 컴포넌트 스캔 -->
     <context:component-scan base-package="com.hyegyeong.todo" />
-
-    <context:annotation-config/>
 
     <!-- This tag allows for mapping the DispatcherServlet to "/" -->
     <mvc:default-servlet-handler />

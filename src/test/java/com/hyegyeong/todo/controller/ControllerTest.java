@@ -5,6 +5,7 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.web.WebAppConfiguration;
@@ -20,15 +21,16 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @WebAppConfiguration
-@ContextConfiguration(locations = {"file:web/WEB-INF/applicationContext.xml"})
+@ContextConfiguration(locations = {"file:web/WEB-INF/dispatcher-servlet.xml", "file:web/WEB-INF/applicationContext.xml"})
 public class ControllerTest {
 
     private static final Logger logger = LoggerFactory.getLogger(ControllerTest.class);
 
-    @Inject
+    @Autowired
     private WebApplicationContext webApplicationContext;
 
     private MockMvc mockMvc;
+
 
     @Before
     public void setup() {
@@ -78,7 +80,7 @@ public class ControllerTest {
         mockMvc.perform(MockMvcRequestBuilders.get("/doJson"))
                 .andDo(print())
                 .andExpect(status().isOk())
-                .andExpect(content().contentType("application/json?charset=utf-8"));
+                .andExpect(content().contentType("application/json;charset=utf-8"));
     }
 
 }

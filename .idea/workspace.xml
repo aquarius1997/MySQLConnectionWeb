@@ -7,32 +7,48 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a7fab43c-77b6-4bc7-a3e7-24a1017426b9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hyegyeong/todo/controller/DomainController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hyegyeong/todo/controller/JasonController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hyegyeong/todo/controller/RedirectController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hyegyeong/todo/controller/StringController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hyegyeong/todo/controller/VoidController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hyegyeong/todo/dto/ProductVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/hyegyeong/todo/controller/ControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/product_detail.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/result.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_jasper_unknown.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bgee_log4jdbc_log4j2_log4jdbc_log4j2_jdbc4_1_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_all_1_9_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hyegyeong/todo/dao/MemberDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hyegyeong/todo/dao/MemberDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hyegyeong/todo/dto/MemberVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com.hyegyeong.todo.mappers/memberMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4jdbc.log4j2.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/hyegyeong/todo/mybatisTest/MemberDAOTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resource/log4j.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/todo_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/todo_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hyegyeong/todo/controller/DomainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hyegyeong/todo/controller/DomainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hyegyeong/todo/controller/ControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hyegyeong/todo/controller/ControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/todo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/todo.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/applicationContext.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="todo" />
@@ -41,6 +57,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="spring-beans.schema" />
+        <option value="Interface" />
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -71,6 +89,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -84,9 +103,9 @@
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.22">
+  <component name="RunManager" selected="JUnit.ControllerTest">
     <configuration name="ControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="todo" />
       <extension name="coverage">
@@ -102,62 +121,66 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataSourceTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ControllerTest.testDoA" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="todo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hyegyeong.todo.dbConfigTest.*" />
+          <option name="PATTERN" value="com.hyegyeong.todo.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.hyegyeong.todo.dbConfigTest" />
-      <option name="MAIN_CLASS_NAME" value="com.hyegyeong.todo.dbConfigTest.DataSourceTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="com.hyegyeong.todo.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.hyegyeong.todo.controller.ControllerTest" />
+      <option name="METHOD_NAME" value="testDoA" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataSourceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MemberDAOTest.testInsertMember" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="todo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hyegyeong.todo.mysqlTest.*" />
+          <option name="PATTERN" value="com.hyegyeong.todo.mybatisTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.hyegyeong.todo.mysqlTest" />
-      <option name="MAIN_CLASS_NAME" value="com.hyegyeong.todo.mysqlTest.DataSourceTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="com.hyegyeong.todo.mybatisTest" />
+      <option name="MAIN_CLASS_NAME" value="com.hyegyeong.todo.mybatisTest.MemberDAOTest" />
+      <option name="METHOD_NAME" value="testInsertMember" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyBatisTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MemberDAOTest.testReadMember" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="todo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hyegyeong.todo.dbConfigTest.*" />
+          <option name="PATTERN" value="com.hyegyeong.todo.mybatisTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.hyegyeong.todo.dbConfigTest" />
-      <option name="MAIN_CLASS_NAME" value="com.hyegyeong.todo.dbConfigTest.MyBatisTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="com.hyegyeong.todo.mybatisTest" />
+      <option name="MAIN_CLASS_NAME" value="com.hyegyeong.todo.mybatisTest.MemberDAOTest" />
+      <option name="METHOD_NAME" value="testReadMember" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MySQLConnectionTest (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MemberDAOTest.testReadWithPW" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="todo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hyegyeong.todo.dbConfigTest.*" />
+          <option name="PATTERN" value="com.hyegyeong.todo.mybatisTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.hyegyeong.todo.dbConfigTest" />
-      <option name="MAIN_CLASS_NAME" value="com.hyegyeong.todo.dbConfigTest.MySQLConnectionTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="com.hyegyeong.todo.mybatisTest" />
+      <option name="MAIN_CLASS_NAME" value="com.hyegyeong.todo.mybatisTest.MemberDAOTest" />
+      <option name="METHOD_NAME" value="testReadWithPW" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -235,20 +258,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.DataSourceTest" />
-      <item itemvalue="JUnit.DataSourceTest (1)" />
-      <item itemvalue="JUnit.MySQLConnectionTest (2)" />
-      <item itemvalue="JUnit.MyBatisTest" />
-      <item itemvalue="JUnit.ControllerTest" />
       <item itemvalue="Tomcat Server.Tomcat 9.0.22" />
+      <item itemvalue="JUnit.MemberDAOTest.testReadMember" />
+      <item itemvalue="JUnit.MemberDAOTest.testReadWithPW" />
+      <item itemvalue="JUnit.MemberDAOTest.testInsertMember" />
+      <item itemvalue="JUnit.ControllerTest.testDoA" />
+      <item itemvalue="JUnit.ControllerTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MyBatisTest" />
-        <item itemvalue="JUnit.DataSourceTest (1)" />
         <item itemvalue="JUnit.ControllerTest" />
-        <item itemvalue="JUnit.MySQLConnectionTest (2)" />
-        <item itemvalue="JUnit.DataSourceTest" />
+        <item itemvalue="JUnit.ControllerTest.testDoA" />
+        <item itemvalue="JUnit.MemberDAOTest.testReadMember" />
+        <item itemvalue="JUnit.MemberDAOTest.testInsertMember" />
+        <item itemvalue="JUnit.MemberDAOTest.testReadWithPW" />
       </list>
     </recent_temporary>
   </component>
@@ -262,11 +285,6 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -287,7 +305,14 @@
       <updated>1575299236415</updated>
       <workItem from="1575299241414" duration="1726000" />
       <workItem from="1575301005930" duration="20000" />
-      <workItem from="1575350401433" duration="18000000" />
+      <workItem from="1575350401433" duration="18742000" />
+      <workItem from="1575378496353" duration="16000" />
+      <workItem from="1575378519002" duration="123000" />
+      <workItem from="1575378648977" duration="65000" />
+      <workItem from="1575378742938" duration="193000" />
+      <workItem from="1575378965343" duration="648000" />
+      <workItem from="1575436952595" duration="9982000" />
+      <workItem from="1575702602907" duration="4591000" />
     </task>
     <servers />
   </component>
@@ -295,10 +320,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1704" y="-12" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575376303635">
+    <state x="1704" y="-12" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575444989739">
       <screen x="1280" y="-214" width="1920" height="1080" />
     </state>
-    <state x="1704" y="-12" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.800/1280.-214.1920.1080@1280.-214.1920.1080" timestamp="1575376303635" />
+    <state x="1704" y="-12" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.800/1280.-214.1920.1080@1280.-214.1920.1080" timestamp="1575444989739" />
     <state x="2053" y="34" key="#com.intellij.ide.util.MemberChooser" timestamp="1575377226141">
       <screen x="1280" y="-214" width="1920" height="1080" />
     </state>
@@ -307,86 +332,86 @@
       <screen x="1280" y="-214" width="1920" height="1080" />
     </state>
     <state x="1869" y="22" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1280.800/1280.-214.1920.1080@1280.-214.1920.1080" timestamp="1575299278853" />
-    <state width="1540" height="218" key="GridCell.Tab.0.bottom" timestamp="1575377803264">
+    <state width="1878" height="202" key="GridCell.Tab.0.bottom" timestamp="1575707430518">
       <screen x="1280" y="-214" width="1920" height="1080" />
     </state>
-    <state width="1540" height="218" key="GridCell.Tab.0.bottom/0.0.1280.800/1280.-214.1920.1080@1280.-214.1920.1080" timestamp="1575377803264" />
-    <state width="1540" height="218" key="GridCell.Tab.0.bottom/0.23.1280.777/1280.-214.1920.1080@1280.-214.1920.1080" timestamp="1575377428406" />
-    <state width="1540" height="218" key="GridCell.Tab.0.center" timestamp="1575377803260">
+    <state width="1878" height="202" key="GridCell.Tab.0.bottom/0.0.1280.800/1280.-214.1920.1080@1280.-214.1920.1080" timestamp="1575707430518" />
+    <state width="1878" height="218" key="GridCell.Tab.0.bottom/0.23.1280.777/1280.-214.1920.1080@1280.-214.1920.1080" timestamp="1575452641362" />
+    <state width="1878" height="202" key="GridCell.Tab.0.center" timestamp="1575707430512">
       <screen x="1280" y="-214" width="1920" height="1080" />
     </state>
-    <state width="1540" height="218" key="GridCell.Tab.0.center/0.0.1280.800/1280.-214.1920.1080@1280.-214.1920.1080" timestamp="1575377803260" />
-    <state width="1540" height="218" key="GridCell.Tab.0.center/0.23.1280.777/1280.-214.1920.1080@1280.-214.1920.1080" timestamp="1575377428371" />
-    <state width="1540" height="218" key="GridCell.Tab.0.left" timestamp="1575377803259">
+    <state width="1878" height="202" key="GridCell.Tab.0.center/0.0.1280.800/1280.-214.1920.1080@1280.-214.1920.1080" timestamp="1575707430512" />
+    <state width="1878" height="218" key="GridCell.Tab.0.center/0.23.1280.777/1280.-214.1920.1080@1280.-214.1920.1080" timestamp="1575452641359" />
+    <state width="1878" height="202" key="GridCell.Tab.0.left" timestamp="1575707430511">
       <screen x="1280" y="-214" width="1920" height="1080" />
     </state>
-    <state width="1540" height="218" key="GridCell.Tab.0.left/0.0.1280.800/1280.-214.1920.1080@1280.-214.1920.1080" timestamp="1575377803259" />
-    <state width="1540" height="218" key="GridCell.Tab.0.left/0.23.1280.777/1280.-214.1920.1080@1280.-214.1920.1080" timestamp="1575377428368" />
-    <state width="1540" height="218" key="GridCell.Tab.0.right" timestamp="1575377803262">
+    <state width="1878" height="202" key="GridCell.Tab.0.left/0.0.1280.800/1280.-214.1920.1080@1280.-214.1920.1080" timestamp="1575707430511" />
+    <state width="1878" height="218" key="GridCell.Tab.0.left/0.23.1280.777/1280.-214.1920.1080@1280.-214.1920.1080" timestamp="1575452641357" />
+    <state width="1878" height="202" key="GridCell.Tab.0.right" timestamp="1575707430514">
       <screen x="1280" y="-214" width="1920" height="1080" />
     </state>
-    <state width="1540" height="218" key="GridCell.Tab.0.right/0.0.1280.800/1280.-214.1920.1080@1280.-214.1920.1080" timestamp="1575377803262" />
-    <state width="1540" height="218" key="GridCell.Tab.0.right/0.23.1280.777/1280.-214.1920.1080@1280.-214.1920.1080" timestamp="1575377428379" />
-    <state width="1540" height="218" key="GridCell.Tab.1.bottom" timestamp="1575377803278">
+    <state width="1878" height="202" key="GridCell.Tab.0.right/0.0.1280.800/1280.-214.1920.1080@1280.-214.1920.1080" timestamp="1575707430514" />
+    <state width="1878" height="218" key="GridCell.Tab.0.right/0.23.1280.777/1280.-214.1920.1080@1280.-214.1920.1080" timestamp="1575452641360" />
+    <state width="1878" height="375" key="GridCell.Tab.1.bottom" timestamp="1575453279119">
       <screen x="1280" y="-214" width="1920" height="1080" />
     </state>
-    <state width="1540" height="218" key="GridCell.Tab.1.bottom/0.0.1280.800/1280.-214.1920.1080@1280.-214.1920.1080" timestamp="1575377803278" />
+    <state width="1878" height="375" key="GridCell.Tab.1.bottom/0.0.1280.800/1280.-214.1920.1080@1280.-214.1920.1080" timestamp="1575453279119" />
     <state width="1540" height="218" key="GridCell.Tab.1.bottom/0.23.1280.777/1280.-214.1920.1080@1280.-214.1920.1080" timestamp="1575377427920" />
-    <state width="1540" height="218" key="GridCell.Tab.1.center" timestamp="1575377803275">
+    <state width="1878" height="375" key="GridCell.Tab.1.center" timestamp="1575453279118">
       <screen x="1280" y="-214" width="1920" height="1080" />
     </state>
-    <state width="1540" height="218" key="GridCell.Tab.1.center/0.0.1280.800/1280.-214.1920.1080@1280.-214.1920.1080" timestamp="1575377803275" />
+    <state width="1878" height="375" key="GridCell.Tab.1.center/0.0.1280.800/1280.-214.1920.1080@1280.-214.1920.1080" timestamp="1575453279118" />
     <state width="1540" height="218" key="GridCell.Tab.1.center/0.23.1280.777/1280.-214.1920.1080@1280.-214.1920.1080" timestamp="1575377427918" />
-    <state width="1540" height="218" key="GridCell.Tab.1.left" timestamp="1575377803273">
+    <state width="1878" height="375" key="GridCell.Tab.1.left" timestamp="1575453279117">
       <screen x="1280" y="-214" width="1920" height="1080" />
     </state>
-    <state width="1540" height="218" key="GridCell.Tab.1.left/0.0.1280.800/1280.-214.1920.1080@1280.-214.1920.1080" timestamp="1575377803273" />
+    <state width="1878" height="375" key="GridCell.Tab.1.left/0.0.1280.800/1280.-214.1920.1080@1280.-214.1920.1080" timestamp="1575453279117" />
     <state width="1540" height="218" key="GridCell.Tab.1.left/0.23.1280.777/1280.-214.1920.1080@1280.-214.1920.1080" timestamp="1575377427917" />
-    <state width="1540" height="218" key="GridCell.Tab.1.right" timestamp="1575377803277">
+    <state width="1878" height="375" key="GridCell.Tab.1.right" timestamp="1575453279119">
       <screen x="1280" y="-214" width="1920" height="1080" />
     </state>
-    <state width="1540" height="218" key="GridCell.Tab.1.right/0.0.1280.800/1280.-214.1920.1080@1280.-214.1920.1080" timestamp="1575377803277" />
+    <state width="1878" height="375" key="GridCell.Tab.1.right/0.0.1280.800/1280.-214.1920.1080@1280.-214.1920.1080" timestamp="1575453279119" />
     <state width="1540" height="218" key="GridCell.Tab.1.right/0.23.1280.777/1280.-214.1920.1080@1280.-214.1920.1080" timestamp="1575377427919" />
-    <state width="1540" height="218" key="GridCell.Tab.2.bottom" timestamp="1575377803272">
+    <state width="1540" height="252" key="GridCell.Tab.2.bottom" timestamp="1575453279108">
       <screen x="1280" y="-214" width="1920" height="1080" />
     </state>
-    <state width="1540" height="218" key="GridCell.Tab.2.bottom/0.0.1280.800/1280.-214.1920.1080@1280.-214.1920.1080" timestamp="1575377803272" />
+    <state width="1540" height="252" key="GridCell.Tab.2.bottom/0.0.1280.800/1280.-214.1920.1080@1280.-214.1920.1080" timestamp="1575453279108" />
     <state width="1540" height="218" key="GridCell.Tab.2.bottom/0.23.1280.777/1280.-214.1920.1080@1280.-214.1920.1080" timestamp="1575377427916" />
-    <state width="1540" height="218" key="GridCell.Tab.2.center" timestamp="1575377803269">
+    <state width="1540" height="252" key="GridCell.Tab.2.center" timestamp="1575453279107">
       <screen x="1280" y="-214" width="1920" height="1080" />
     </state>
-    <state width="1540" height="218" key="GridCell.Tab.2.center/0.0.1280.800/1280.-214.1920.1080@1280.-214.1920.1080" timestamp="1575377803269" />
+    <state width="1540" height="252" key="GridCell.Tab.2.center/0.0.1280.800/1280.-214.1920.1080@1280.-214.1920.1080" timestamp="1575453279107" />
     <state width="1540" height="218" key="GridCell.Tab.2.center/0.23.1280.777/1280.-214.1920.1080@1280.-214.1920.1080" timestamp="1575377427913" />
-    <state width="1540" height="218" key="GridCell.Tab.2.left" timestamp="1575377803266">
+    <state width="1540" height="252" key="GridCell.Tab.2.left" timestamp="1575453279106">
       <screen x="1280" y="-214" width="1920" height="1080" />
     </state>
-    <state width="1540" height="218" key="GridCell.Tab.2.left/0.0.1280.800/1280.-214.1920.1080@1280.-214.1920.1080" timestamp="1575377803266" />
+    <state width="1540" height="252" key="GridCell.Tab.2.left/0.0.1280.800/1280.-214.1920.1080@1280.-214.1920.1080" timestamp="1575453279106" />
     <state width="1540" height="218" key="GridCell.Tab.2.left/0.23.1280.777/1280.-214.1920.1080@1280.-214.1920.1080" timestamp="1575377427912" />
-    <state width="1540" height="218" key="GridCell.Tab.2.right" timestamp="1575377803270">
+    <state width="1540" height="252" key="GridCell.Tab.2.right" timestamp="1575453279108">
       <screen x="1280" y="-214" width="1920" height="1080" />
     </state>
-    <state width="1540" height="218" key="GridCell.Tab.2.right/0.0.1280.800/1280.-214.1920.1080@1280.-214.1920.1080" timestamp="1575377803270" />
+    <state width="1540" height="252" key="GridCell.Tab.2.right/0.0.1280.800/1280.-214.1920.1080@1280.-214.1920.1080" timestamp="1575453279108" />
     <state width="1540" height="218" key="GridCell.Tab.2.right/0.23.1280.777/1280.-214.1920.1080@1280.-214.1920.1080" timestamp="1575377427914" />
-    <state x="1728" y="-93" key="SettingsEditor" timestamp="1575377664732">
+    <state x="1728" y="-93" key="SettingsEditor" timestamp="1575705478765">
       <screen x="1280" y="-214" width="1920" height="1080" />
     </state>
-    <state x="1728" y="-93" key="SettingsEditor/0.0.1280.800/1280.-214.1920.1080@1280.-214.1920.1080" timestamp="1575377664732" />
-    <state x="1728" y="-93" key="SettingsEditor/0.23.1280.777/1280.-214.1920.1080@1280.-214.1920.1080" timestamp="1575377414882" />
-    <state x="1933" y="158" key="com.intellij.ide.util.TipDialog" timestamp="1575301004955">
+    <state x="1728" y="-93" key="SettingsEditor/0.0.1280.800/1280.-214.1920.1080@1280.-214.1920.1080" timestamp="1575705461893" />
+    <state x="1728" y="-93" key="SettingsEditor/0.23.1280.777/1280.-214.1920.1080@1280.-214.1920.1080" timestamp="1575705478765" />
+    <state x="1933" y="158" key="com.intellij.ide.util.TipDialog" timestamp="1575702634592">
       <screen x="1280" y="-214" width="1920" height="1080" />
     </state>
-    <state x="1933" y="158" key="com.intellij.ide.util.TipDialog/0.0.1280.800/1280.-214.1920.1080@1280.-214.1920.1080" timestamp="1575301004955" />
+    <state x="1933" y="158" key="com.intellij.ide.util.TipDialog/0.0.1280.800/1280.-214.1920.1080@1280.-214.1920.1080" timestamp="1575702634592" />
     <state x="2045" y="250" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1575377794536">
       <screen x="1280" y="-214" width="1920" height="1080" />
     </state>
     <state x="2045" y="250" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.800/1280.-214.1920.1080@1280.-214.1920.1080" timestamp="1575377794536" />
-    <state x="1920" y="88" width="639" height="476" key="find.popup" timestamp="1575354909103">
+    <state x="1920" y="88" width="639" height="476" key="find.popup" timestamp="1575706925488">
       <screen x="1280" y="-214" width="1920" height="1080" />
     </state>
-    <state x="1920" y="88" width="639" height="476" key="find.popup/0.0.1280.800/1280.-214.1920.1080@1280.-214.1920.1080" timestamp="1575354909103" />
-    <state x="1905" y="27" width="670" height="676" key="search.everywhere.popup" timestamp="1575372213025">
+    <state x="1920" y="88" width="639" height="476" key="find.popup/0.0.1280.800/1280.-214.1920.1080@1280.-214.1920.1080" timestamp="1575706925488" />
+    <state x="1905" y="27" width="670" height="676" key="search.everywhere.popup" timestamp="1575447290992">
       <screen x="1280" y="-214" width="1920" height="1080" />
     </state>
-    <state x="1905" y="27" width="670" height="676" key="search.everywhere.popup/0.0.1280.800/1280.-214.1920.1080@1280.-214.1920.1080" timestamp="1575372213025" />
+    <state x="1905" y="27" width="670" height="676" key="search.everywhere.popup/0.0.1280.800/1280.-214.1920.1080@1280.-214.1920.1080" timestamp="1575447290992" />
   </component>
 </project>

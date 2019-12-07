@@ -19,4 +19,5 @@ public class DomainController {
 
         return "product_detail";
     }
+
 }
