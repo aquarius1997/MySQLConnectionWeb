@@ -26,7 +26,7 @@
 
 --------------------------------
 
-## 에러 내용 및 해결 방법
+## 삽질한 에러 내용 및 해결 방법
 
 
 1.Datasource Test
@@ -63,7 +63,27 @@
 </dependency>
 ~~~
 
-4.MockMVC 를 이용한 Junit Test
- * Error : No mapping found for HTTP request with URI
- * 원인 : 내부 웹 관련 처리작업을 설정하는 것은 dispatcher-servlet.xml이나, 애플리케이션 컨텍스트 설정 파일위치를 applicationContext.xml로 잘못 지정
- * 해결 : ContextConfiguration 어노테이션의 위치를 dispatcher-servelt.xml 로 변경 : @ContextConfiguration(locations = {"file:web/WEB-INF/dispatcher-servlet.xml"})
+4.Controller Test
+ * Error : Circular view path [doA]: would dispatch back to the current handler URL [/doA] again
+ * 원인 : ViewResolver 관련된 속성을 dispatcher-servlet.xml 에 정의했는데 테스트가 사용할 설정 파일 위치를 @ContextConfiguration(locations = {"file:web/WEB-INF/applicationContext.xml"}) 로 잡음 
+ * 해결 : 설정 파일 위치에 dispatcher-servlet.xml 도 추가함
+ * 코드 : 
+ ~~~
+@ContextConfiguration(locations = {"file:web/WEB-INF/dispatcher-servlet.xml", "file:web/WEB-INF/applicationContext.xml"})
+~~~
+
+5.Mybatis Exception
+ * Error : 
+ ~~~
+org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: java.lang.IllegalArgumentException: Mapped Statements collection does not contain value for com.hyegyeong.todo.mappers.memberMapper.xml.selectMember
+### Cause: java.lang.IllegalArgumentException: Mapped Statements collection does not contain value for com.hyegyeong.todo.mappers.memberMapper.xml.selectMember
+~~~
+ * 원인 : Dao 구현 코드에서 namespace 를 Mapper.xml 같은 형태로 선언
+ ~~~
+  private static final String NAMESPACE = "com.hyegyeong.todo.mappers.memberMapper.xml";
+~~~
+ * 수정 코드 : 
+ ~~~
+  private static final String NAMESPACE = "com.hyegyeong.todo.mappers.memberMapper";
+~~~
