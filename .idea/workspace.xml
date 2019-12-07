@@ -9,7 +9,6 @@
     <list default="true" id="a7fab43c-77b6-4bc7-a3e7-24a1017426b9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/hyegyeong/todo/mybatisTest/MemberDAOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hyegyeong/todo/mybatisTest/MemberDAOTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -291,7 +290,7 @@
       <workItem from="1575378742938" duration="193000" />
       <workItem from="1575378965343" duration="648000" />
       <workItem from="1575436952595" duration="9982000" />
-      <workItem from="1575702602907" duration="5873000" />
+      <workItem from="1575702602907" duration="6734000" />
     </task>
     <servers />
   </component>
